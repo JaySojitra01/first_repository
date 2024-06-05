@@ -59,7 +59,7 @@ export const coursesCard = [
   {
     id: 2,
     cover: "../images/courses/c2.png",
-    coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+    coursesName: " Adobe Photoshop CC 2020 Skills",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -73,7 +73,7 @@ export const coursesCard = [
   {
     id: 3,
     cover: "../images/courses/c3.png",
-    coursesName: "HTML, CSS, and Javascript for Web Developers",
+    coursesName: "HTML, CSS, and Javascript ",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -177,22 +177,10 @@ export const online = [
     course: "25 Courses",
   },
   {
-    cover: "./images/courses/online/o2.png",
-    hoverCover: "./images/courses/online/o2.1.png",
-    courseName: "Art & Design",
-    course: "25 Courses",
-  },
-  {
     cover: "./images/courses/online/o3.png",
     hoverCover: "./images/courses/online/o3.1.png",
     courseName: "Computer Science",
     course: "10 Courses",
-  },
-  {
-    cover: "./images/courses/online/o4.png",
-    hoverCover: "./images/courses/online/o4.1.png",
-    courseName: "History & Archeologic",
-    course: "15 Courses",
   },
   {
     cover: "./images/courses/online/o5.png",
@@ -207,35 +195,12 @@ export const online = [
     course: "60 Courses",
   },
   {
-    cover: "./images/courses/online/o7.png",
-    hoverCover: "./images/courses/online/o7.1.png",
-    courseName: "Health & Fitness",
-    course: "10 Courses",
-  },
-  {
-    cover: "./images/courses/online/o8.png",
-    hoverCover: "./images/courses/online/o8.1.png",
-    courseName: "Marketing",
-    course: "30 Courses",
-  },
-  {
     cover: "./images/courses/online/o9.png",
     hoverCover: "./images/courses/online/o9.1.png",
     courseName: "Graphic Design",
     course: "80 Courses",
   },
-  {
-    cover: "./images/courses/online/o10.png",
-    hoverCover: "./images/courses/online/o10.1.png",
-    courseName: "Music",
-    course: "120 Courses",
-  },
-  {
-    cover: "./images/courses/online/o11.png",
-    hoverCover: "./images/courses/online/o11.1.png",
-    courseName: "Business Administration",
-    course: "17 Courses",
-  },
+  
   {
     cover: "./images/courses/online/o12.png",
     hoverCover: "./images/courses/online/o12.1.png",
@@ -301,11 +266,7 @@ export const price = [
     price: "109k",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
-  {
-    name: "ULTIMATE PLAN",
-    price: "149K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
+
 ]
 export const faq = [
   {

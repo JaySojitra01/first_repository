@@ -11,15 +11,20 @@ const Header = () => {
       <Head />
       <header>
         <nav className='flexSB'>
+        
+          <div className='logo'>
+            <h1>Edu<span>hub</span></h1>
+            
+            </div>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
             <li>
               <Link to='/'>Home</Link>
             </li>
             <li>
-              <Link to='/courses'>All Courses</Link>
+              <Link to='/about'>About</Link>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <Link to='/courses'>All Courses</Link>
             </li>
             <li>
               <Link to='/team'>Team</Link>
@@ -28,15 +33,10 @@ const Header = () => {
               <Link to='/pricing'>Pricing</Link>
             </li>
             <li>
-              <Link to='/journal'>Journal</Link>
-            </li>
-            <li>
               <Link to='/contact'>Contact</Link>
             </li>
           </ul>
-          <div className='start'>
-            <div className='button'>GET CERTIFICATE</div>
-          </div>
+          
           <button className='toggle' onClick={() => setClick(!click)}>
             {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
           </button>
