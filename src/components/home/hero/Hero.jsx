@@ -8,9 +8,10 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-            <Heading subtitle='WELCOME TO ACADEMIA' title='Best Online Education Expertise' />
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <Heading subtitle='WELCOME TO GENIUS GEMS' title='Best Online Education Expertise' />
+            <p>Unlock Your Potential, Embrace Education Learn, Grow, Succeed Education for a Brighter Tomorrow Ignite Your Curiosity, Explore Education Innovate, Educate, Elevate Knowledge is Power, Embrace Education Discover the Joy of Learning</p>
             <div className='button'>
+
               <button className='primary-btn'>
                 GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
               </button>
